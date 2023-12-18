@@ -7,6 +7,8 @@
 - Postgres SQL
 - Spring Security
 
+Посмотреть, как это работает можно здесь: https://addr2.castroy10.ru/
+
 База данных состоит из следующих таблиц:
 
     create table department
@@ -51,6 +53,4 @@
     );
 
 Для защиты административной части /admin использован SpringSecurity, хранящий пользователей в базе Usr с кодировкой паролей BCrypt.
-
-Посмотреть, как это работает можно здесь: https://addr2.castroy10.ru/
 
